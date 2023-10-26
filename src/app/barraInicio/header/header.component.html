@@ -1,0 +1,56 @@
+<header>
+  <div class="line"></div>
+  <div class="container">
+    <div class="content">
+      <div class="circle position-relative">
+        <img src="assets/imagen/Captura77.PNG" alt="Imagen" />
+      </div>
+      <div class="text">
+        <p>copy this QR clicking on it and share it:</p>
+        <p>Paste here your redireccion URL. (Press enter to save changes)</p>
+        <input type="text" class="form-control textInput" placeholder="" />
+        <p
+          class="card-title"
+          style="font-family: 'Arial', sans-serif; font-size: 11px"
+        >
+          This is your url: https//iglesia-tech-api.e2api.com/api/redirect/99999
+        </p>
+      </div>
+      <div class="content_buscar">
+        <ng-multiselect-dropdown
+          formControlName="grocery"
+          [placeholder]="'buscar'"
+          [settings]="dropdownSettings"
+          [data]="dropdownList"
+          (onSelect)="onItemSelect($event)"
+        >
+        </ng-multiselect-dropdown>
+      </div>
+    </div>
+  </div>
+
+  <div class="iglesia">
+    <h1>Iglesia para Pruebas No modificar</h1>
+  </div>
+  <mat-tab-group class="navbar">
+    <mat-tab   label="Administration" routerLink="contenido/cards">
+      
+    </mat-tab>
+    <mat-tab label="Build">
+     
+    </mat-tab>
+    <mat-tab label="Tools">
+      
+    </mat-tab>
+    <mat-tab label="Manage">
+      
+    </mat-tab>
+    <mat-tab label="Communicate">
+      
+    </mat-tab>
+    <mat-tab label="Training">
+      
+    </mat-tab>
+  </mat-tab-group>
+
+</header>
